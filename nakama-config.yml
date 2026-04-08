@@ -15,7 +15,7 @@ runtime:
 
 session:
   token_expiry_sec: 7200
-  refresh_token_expiry_sec: 3600
+  refresh_token_expiry_sec: 86400
 
 socket:
   max_message_size_bytes: 4096
