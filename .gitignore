@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Build artifacts
+backend/build/
+frontend/dist/
+
+# Environment files
+.env
+.env.local
+frontend/.env
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# Coverage
+coverage/
+.nyc_output/

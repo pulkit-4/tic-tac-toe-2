@@ -1,0 +1,17 @@
+{
+  "name": "tic-tac-toe-nakama-backend",
+  "version": "1.0.0",
+  "description": "Nakama TypeScript runtime for authoritative Tic-Tac-Toe",
+  "scripts": {
+    "build": "npx rollup -c rollup.config.mjs",
+    "watch": "npx rollup -c rollup.config.mjs --watch"
+  },
+  "devDependencies": {
+    "rollup": "^4.9.6",
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "tslib": "^2.6.2",
+    "typescript": "^5.3.3"
+  }
+}
